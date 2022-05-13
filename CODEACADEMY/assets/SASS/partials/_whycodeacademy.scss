@@ -1,0 +1,41 @@
+div h2{
+    color: $primary-color;
+    font-family: $primary-font;
+    font-size: $primary-size;
+    font-weight: $secondary-weight;
+    margin-top: 30px !important;
+    text-align: center;
+}
+div h3{
+    color: $primary-color;
+    font-family: $primary-font;
+    font-size: $secondary-size;
+    font-weight: $secondary-weight;
+}
+div p{
+    color: $primary-color;
+    font-family: $primary-font;
+    font-size: $third-size;
+    font-weight: $third-weight;
+}
+#parallax{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/code-academy-bg.jpeg);
+    background-attachment: fixed;
+    width: 100%;
+    position:relative;
+}
+.shadow{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0 ,0.1);
+    position: absolute;
+    z-index: 1;   
+}
+@media screen and (min-width:153px) and(max-width:768px){
+    h3,p{
+        justify-content: center;
+        display: flex;
+    }
+}
